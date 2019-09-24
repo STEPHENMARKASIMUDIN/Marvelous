@@ -1,7 +1,7 @@
 import axios from 'axios'
-//192.168.19.60
 //localhost
-const pathURL = 'http://192.168.19.60:1552'
+//localhost
+const pathURL = 'http://192.168.0.0:0000'
 
 export async function GetAxios(path, port) {
     return axios.get(`${pathURL}/movieList?path=${path}&port=${port}`)
