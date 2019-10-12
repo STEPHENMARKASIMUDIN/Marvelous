@@ -36,9 +36,9 @@ export default withStyles(useStyles)(class Home extends Component {
         this.state = {
             open: null,
             selectedNav: -1,
-            path: 'https://192.168.19.60:444',
-            path2: 'https://192.168.19.60:446',
-            path3: 'https://192.168.19.60:447',
+            path: 'https://localhost',
+            path2: 'https://localhost',
+            path3: 'https://localhost',
             selectedVid: null,
             currentMovie: ''
         }
